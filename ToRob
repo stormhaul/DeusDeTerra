@@ -1,0 +1,8 @@
+I think I figured out how we can handle the scope issues. Where it would take way to long to process anything across the whole continent if we had any detail.
+
+I don't know if you ever played Sim City 4, but in it they had a large scale map which you chose a "region" to progress a city in.
+The regions could trade with one another and I'm sure on save and exit from them they generated a static image for the large scale map to show.
+What we could do is follow that pattern. Initially fill the large scale map with the base attributes. Then the user has the option to advance time in a "region". That region is a managable computation chunck, and the incentive to advance the whole map and not just one region would be that you could only "export" to other regions if there was a demand and transport method between the large scale "Regions".
+
+
+Good Idea or Bad?
